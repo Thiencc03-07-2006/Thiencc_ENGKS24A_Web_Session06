@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    color: darkblue;
+    margin: 1px 1px 15px;
+}
+ul{
+    list-style-image: url(https://rikkei.edu.vn/wp-content/themes/hoabinhweb-v3-154-child-theme/image/icon-check.png);
+    list-style-position:inside;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+#red-button{
+    border: none;
+    background-color: red;
+    color: white;
+}
+button:hover,#red-button:hover{
+    background-color: gray;
+}
